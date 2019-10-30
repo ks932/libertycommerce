@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin</title>
+</head>
+<body class= "corps">
+    <div class="admin">
+            <form action="" method="POST"class ="formul">
+                    <ul style="padding-left: 2%;">
+                            <h2 class= "titre">Ajout Produit</h2>
+                        <li>  
+                             <label for="name" class="nom" >Article Name: </label>
+                            <input type="text" name="name"  required >
+                        </li><br>
+                     
+                       <li> 
+                           <label for="picture" class="nom">Choose a Picture:</label>
+                         <input class="file" type="file"  accept="image/*" required>
+                        </li><br>
+                        <li> 
+                            <label for="price" class="nom">Price:</label>
+                            <input class="price"type="number" name="price" required>
+                        </li><br>
+                        <li>  
+                              <label for="categorie" class="nom">Categorie:</label>
+                            <input class="cat"type="text" name="categorie" required>
+                        </li><br>
+                        <li>  
+                            <label for="description" class="nom">Description:</label><br>
+                            <textarea class="des" name="Description" rows="4" cols="30">Description...</textarea>
+                        </li>
+                        <li class="submit"> 
+                                <input type="submit" value="submit">
+                        </li>
+                    </ul>
+                          
+                </form>
+    </div>
+</body>
+</html>
