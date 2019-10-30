@@ -1,0 +1,313 @@
+p
+{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: "Trebuchet MS";
+    color: #EFC600
+}
+li
+{
+    display: inline-block;
+}
+.cpr, .ullogo
+{
+    display: inline-block;
+}
+.imag
+{
+    padding-left: 70%;
+    display: inline-block;
+}
+footer
+{
+    bottom: 0;
+	position: fixed;
+    width: 98.8%;
+    height: 15%;
+    background-image: url('back.PNG');
+}
+.ullogo
+{
+    text-align: center;
+    padding-left: 35%;
+}
+.imag, .iag
+{
+    height: 30px;
+    width: 30px;
+}
+.iag
+{
+    padding-left: 45px;
+}
+.cpr, .iag, .imag
+{
+    display: inline-block;
+}
+.logo
+{
+    margin-top: 2px;
+    height: 45px;
+    margin-left: 10%;
+}
+.logo, .menu
+{
+    display: inline-block;
+}
+.menu
+{
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    margin-left: 15%;
+}
+.barre
+{
+    height: 52px;
+}
+.barre:hover
+{
+    height: 50px;
+    background-color: #EFC600;
+}
+a
+{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "gobold";
+    font-style: italic;
+    color: #224A95;
+}
+.name
+{
+    padding-left: 115px;
+}
+
+#menu-deroulant, #menu-deroulant ul 
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant, .menu
+{
+    display: inline-block;
+}
+#menu-deroulant li 
+{
+    display: inline-block;
+}
+#menu-deroulant ul li 
+{
+    display: inherit;
+}
+#menu-deroulant a 
+{
+    text-decoration: none;
+    display: block;
+	color:#000;
+}
+#menu-deroulant ul 
+{
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-deroulant li:hover ul 
+{
+    left: auto;
+}
+.ls, .lg
+{
+    padding-top: 6px;
+}
+.ls, .lg
+{
+    margin-left: 35%;
+}
+/*RESET, REGISTER, LOGIN,*/
+.formulaire
+{
+    margin-top: 15%;
+    margin-left: 37%;
+    border-radius: 12px;
+    box-shadow: 10px 5px 10px black;
+    height: 325px;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+h1
+{
+    padding-top: 5%;
+    margin-left: 35%;
+    font-family: "TESLA";
+    color: #224A95;
+}
+.pseudo
+{
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.pseudot, .name, .cpassword, .nom, .em
+{
+    color:  #224A95;
+}
+.pass
+{
+    margin-left: 3%;
+}
+.button
+{
+    margin-top: 2.5%;
+    margin-left: 44%;
+    background-color: #224A95;
+    color: #FFF;
+    border-radius: 8px;
+}
+.logi, .reset
+{
+    -webkit-background-size: cover;
+    background-image: url('bac.jpg');
+}
+.emi, .nomm
+{
+    margin-left: 18%;
+}
+.reg
+{
+    margin-left: 25%;
+    font-family: "TESLA";
+    color: #224A95;
+}
+.res
+{
+    margin-left: 35%;
+}
+.forme
+{
+    margin-top: 20%;
+    margin-left: 35%;
+    border: 1px solid black;
+    box-shadow: 10px 5px 10px black;
+    height: 175px;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+.link
+{
+    font-size: 12px;
+    color: #EFC600;
+    border-bottom: 1px solid black;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.catalogue
+{
+    /*border: 1px solid black;*/
+    height: 430px;
+    width: 24.50%;
+    display: inline-block;
+}
+.cata
+{
+    background-image: url('bac1.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+.beat
+{
+    margin-left: 12%;
+    height: 350px;
+}
+.add
+{
+    margin-left: 27%;
+    top: 12%;
+}
+.know
+{
+    margin-left: 5%;
+}
+.part
+{
+    margin-top: 5%;
+}
+.but
+{
+    height: 40px;
+    border-radius: 8px;
+    font-family: "gobold";
+}
+.but:hover
+{
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: "gobold";
+}
+.titb
+{
+    font-family: "Nineteenth";
+    color: white;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.produit
+{
+    background-image: url('prd.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+.desc
+{
+    margin-left: 10.5%;
+    margin-top: 9%;
+    height: 480px;
+    width: 30%;
+}
+.buy, .prix
+{
+    margin-top: 3%;
+    display: inline-block;
+    color: white;
+}
+.tex
+{
+    color:white;
+}
+.achats
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 18px;
+    font-family: "gobold";
+    background-color: rgb(196, 14, 14);
+    color: white;
+}
+.achats:hover
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "gobold";   
+}
+.ash
+{
+    font-size: 49px;
+    color: white;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: "nineteenth";
+}
+.prix
+{
+    margin-left: 25px;
+}
+.buy, .achats
+{
+    margin-left: 0%;
+}
+/*********************************************************************************************************************************************************************************/
